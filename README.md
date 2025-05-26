@@ -36,3 +36,10 @@ Irá criar as chaves utilizadas pelo jogo
 
 ![image](https://github.com/user-attachments/assets/0e6040de-1c69-42b2-b291-49f7601d32c4)
 
+# Rodar servidor Web3
+Este irá criar o servidor de comunicação entre o Banco do Jogo e o RPC Local
+```bash
+node server.js
+```
+![image](https://github.com/user-attachments/assets/7f665948-faef-4ea9-8655-cdc7d15978c2)
+
