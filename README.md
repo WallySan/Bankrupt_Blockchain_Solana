@@ -1,3 +1,16 @@
+> ⚠️ **Atenção: Configure o ambiente Solana para local**
+>
+> Certifique-se de que a variável de ambiente `SOLANA_CLUSTER` ou as configurações da sua aplicação estejam apontando para a rede de teste local:
+>
+> ```bash
+> solana config set --url http://127.0.0.1:8899
+> ```
+>
+> Nunca execute este código conectado à **mainnet-beta**, pois isso pode causar **perda real de valores** em SOL.  
+> Utilize sempre `solana-test-validator` para simulações de jogo e testes locais.
+
+
+
 # Instalar 
 ```bash
 npm install express @solana/web3.js body-parser
