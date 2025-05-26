@@ -1,8 +1,14 @@
 # Instalar 
+```bash
   npm install express @solana/web3.js body-parser
+```
+
 
 # Iniciar rede de teste solana
+```bash
   solana-test-validator
+```
+
 
 # Realizar Airdrop dos jogadores
 ```bash
