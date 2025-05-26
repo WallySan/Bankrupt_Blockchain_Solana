@@ -47,9 +47,17 @@ node server.js
 
 ![image](https://github.com/user-attachments/assets/0c57b9c4-15a3-4600-b1a4-45e7319ab51b)
 
-Transação realizada na Blockchain Solana:
+Transação realizada na Blockchain:
 
 ![image](https://github.com/user-attachments/assets/1e6bf0fd-356a-4a04-8422-5b0b568809d9)
+
+# Log evidenciando o Jogador 2 pagando aluguel ao Jogador 1 dono da atual propriedade:
+
+![image](https://github.com/user-attachments/assets/d17bccab-681e-4087-a92b-968e81281731)
+
+Transação realizada na Blockchain:
+
+![image](https://github.com/user-attachments/assets/70753afb-82f9-4f4c-b8c1-99f351303235)
 
 
 
