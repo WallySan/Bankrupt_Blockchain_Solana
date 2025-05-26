@@ -17,8 +17,8 @@ public class Simulacao {
     public static void main(String[] args) {
 
        
-        int maximoRodadas = 1000;
-        int jogosSimulados = 300;
+        int maximoRodadas = 10;
+        int jogosSimulados = 1;
 
         // Cria diretório 'log' se não existir
         File pastaLog = new File("log");
@@ -42,6 +42,15 @@ public class Simulacao {
             Player p4 = new Player(4, new ComportamentoImpulsivo(), "Impulsivo");
             List<Player> jogadores = List.of(p1, p2, p3, p4);
 
+            // Atribui a public key vinda do backend a cada player
+            p1.setPublicKey(Configuracao.consultarPublicKey(1));
+            p2.setPublicKey(Configuracao.consultarPublicKey(2));
+            p3.setPublicKey(Configuracao.consultarPublicKey(3));
+            p4.setPublicKey(Configuracao.consultarPublicKey(4)); 
+            
+            
+            
+            
             Jogo j = new Jogo(jogadores, tabuleiro, maximoRodadas, i);
 
             resultados.add(j.getResultado());
@@ -54,6 +63,9 @@ public class Simulacao {
         AnalisarResultados();
         
     }
+    
+    
+    
     
     
     public static void AnalisarResultados() {

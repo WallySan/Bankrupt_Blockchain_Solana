@@ -1,6 +1,4 @@
-
 package bankrupt;
-
 
 public class Player {
 
@@ -10,23 +8,25 @@ public class Player {
     private boolean ativo = true;
     private String nome;
     private IComportamento comportamento;
-    
-    
+
+    //Conta Solana
+    private String publicKey; // para backend web3
+    private String keyFilePath; // local físico do arquivo JSON da chave 
+
     // Construtor
-    public Player(int ID,IComportamento comp, String nom) {
+    public Player(int ID, IComportamento comp, String nom) {
         this.ID = ID;
         this.coins = 300;   // Valor inicial
         this.posicao = 0;   // Posição inicial
         this.comportamento = comp;
         this.nome = nom;
-        
+
     }
-    
-    public String getNome()
-    {
+
+    public String getNome() {
         return nome;
     }
-    
+
     public boolean isAtivo() {
         return ativo;
     }
@@ -75,14 +75,29 @@ public class Player {
     public void removerMoedas(int valor) {
         this.coins -= valor;
     }
-    
-    public boolean decideComprar(Propriedade prop)
-    {
+
+    public boolean decideComprar(Propriedade prop) {
         int valorCompra = prop.getCustoVenda();
         int valorAluguel = prop.getValorAluguel();
         return comportamento.decideComprar(this.coins, valorAluguel, valorCompra);
     }
+
     
-    
-    
+    //Consulta de chaves
+    public String getPublicKey() {
+        return publicKey;
+    }
+
+    public void setPublicKey(String publicKey) {
+        this.publicKey = publicKey;
+    }
+
+    public String getKeyFilePath() {
+        return keyFilePath;
+    }
+
+    public void setKeyFilePath(String keyFilePath) {
+        this.keyFilePath = keyFilePath;
+    }
+
 }

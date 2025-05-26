@@ -1,4 +1,4 @@
-# COMPLETO
+# EM DESENVOLVIMENTO 
 
 Aluno: Ricardo Santoro Damasio de Oliveira
 
@@ -42,39 +42,28 @@ Log da finalização do Jogo
 
 ![image](https://github.com/user-attachments/assets/be466c00-a05c-4190-bac4-67ca02dbb815)
 
-Estatísticas (40 casas alternando uma vazia e outra com propriedade)
+Estatísticas
 
-![image](https://github.com/user-attachments/assets/ef6a8b15-fcd9-4f34-8b1a-82a350aba4e5)
+![image](https://github.com/user-attachments/assets/fd280354-ed96-476a-a48e-5cd857b7dccd)
 
-![image](https://github.com/user-attachments/assets/7f24e03c-7b34-4c91-b151-2a8afe2c8808)
-
-Estatísticas (20 casas todas propriedades)
-
-Para alterar o tabuleiro para apenas 20 casas e todas sendo propriedades, foi incluso o metodo de importação reduzida:
-
-![image](https://github.com/user-attachments/assets/3711cc64-4ee3-4282-bab3-11143c416ca7)
-
-O jogo ficou mais curto:
-
-![image](https://github.com/user-attachments/assets/28ba0a0e-f889-4357-9e75-cb4e2c13dde0)
-
-![image](https://github.com/user-attachments/assets/c62210a9-2572-42cd-9ee9-111800ce8541)
-
-Alterando para 60 casas, alternando entre 2 vazias e 1 propriedade
-
-![image](https://github.com/user-attachments/assets/a5b6777e-c4b0-4a6d-bee5-d6c0ce1471d5)
-
-![image](https://github.com/user-attachments/assets/7ebc19bc-2e97-4d45-995d-887208285557)
-
-![image](https://github.com/user-attachments/assets/78833900-5d61-496e-95cf-f23073da4326)
+![image](https://github.com/user-attachments/assets/a3bf5a63-a474-47d2-a2ae-350b638abc9b)
 
 
 
-#CONCLUSÃO
+# GRAFICO (Obsoleto)
 
-Com 40 blocos as chances são iguais para os perfis, mas quando o jogo tem 20 ou 60 blocos o Exigente é o que menos vence e o Cauteloso quem mais vence
+Funcionalidade foi removida da versão atual para melhorar desempenho do processamento das simulações,
+
+Porém a classe (SimulacaoGrafico.java) está disponível para uso futuro
+
+Cada simulação contém vários jogos, e cada jogo gera um Log
+
+![image](https://github.com/user-attachments/assets/c4633429-3e2a-4660-8448-dd9d5fca0ea7)
 
 
+Ferramenta para plotar gráfico de jogos individuais:
 
+![image](https://github.com/user-attachments/assets/683b59ca-6848-44b2-bfc0-1da402bfa8fc)
+![image](https://github.com/user-attachments/assets/92be5e1d-5646-4f4b-b553-f25c5b930b01)
 
 

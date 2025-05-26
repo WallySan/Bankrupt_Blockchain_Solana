@@ -24,7 +24,7 @@ public class Jogo {
         this.tabuleiro = t;
         tabuleiro.desenharTabuleiro();
         System.out.println("Iniciando o jogo com " + players.size() + " jogadores.");
-
+        imprimirEstadoDosJogadoresEBanco(banco);
         
         
         for (int i = 0; i < rodadas; i++) {
@@ -137,7 +137,7 @@ if (resultado == null) {
 
     public void realizarRodada() {
         playerAtual = players.get(indicePlayer);
-        boolean debug = false;
+        boolean debug = true; 
 
         
         if (!playerAtual.isAtivo()) {
@@ -235,6 +235,7 @@ if (resultado == null) {
         avancarJogador();
     }
 
+    /*
     private void imprimirEstadoDosJogadoresEBanco(Banco banco) {
         System.out.println("=== Estado Atual do Banco ===");
         System.out.println("Saldo do Banco: " + banco.getCoins() + " moedas\n");
@@ -246,7 +247,26 @@ if (resultado == null) {
                     + " \t| Posição: " + player.getPosicao()
                     + " \t| Ativo: " + (player.isAtivo() ? "Sim" : "Não"));
         }
+    }*/
+    
+    private void imprimirEstadoDosJogadoresEBanco(Banco banco) {
+    System.out.println("=== Estado Atual do Banco ===");
+    long saldoBanco = banco.getCoins(); // Consulta saldo do banco via backend
+    System.out.println("Saldo do Banco (on-chain): " + saldoBanco + " lamports\n");
+
+    System.out.println("=== Estado Atual dos Jogadores ===");
+    for (Player player : players) {
+        String pubKey = player.getPublicKey();
+        long saldoJogador = banco.consultarSaldo(pubKey); // Consulta saldo via backend
+
+        System.out.println("Jogador " + player.getID() + " " + player.getNome()
+                + " \t| Chave Pública: " + pubKey
+                + " \t| Saldo (on-chain): " + saldoJogador + " lamports"
+                + " \t| Posição: " + player.getPosicao()
+                + " \t| Ativo: " + (player.isAtivo() ? "Sim" : "Não"));
     }
+}
+
 
     private void avancarJogador() {
         indicePlayer++;
