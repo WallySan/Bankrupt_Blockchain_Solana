@@ -1,4 +1,4 @@
-🏦 Projeto: Banco Imobiliário na Blockchain Solana
+# Projeto: Banco Imobiliário na Blockchain Solana
 
 🎯 Este projeto é uma simulação de um jogo de Banco Imobiliário onde as transações financeiras entre jogadores são realizadas utilizando a blockchain da Solana.
 
