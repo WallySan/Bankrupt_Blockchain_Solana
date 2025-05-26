@@ -5,7 +5,9 @@
   solana-test-validator
 
 # Realizar Airdrop dos jogadores
-  node InicializarWallets.js
+```bash
+node InicializarWallets.js
+```
 
 Irá criar as chaves utilizadas pelo jogo
 
