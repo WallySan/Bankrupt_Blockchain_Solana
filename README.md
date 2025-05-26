@@ -1,20 +1,20 @@
 # Projeto: Banco Imobiliário na Blockchain Solana
 
-🎯 Este projeto é uma simulação de um jogo de Banco Imobiliário onde as transações financeiras entre jogadores são realizadas utilizando a blockchain da Solana.
+# 🎯 Este projeto é uma simulação de um jogo de Banco Imobiliário onde as transações financeiras entre jogadores são realizadas utilizando a blockchain da Solana.
 
-🔗 Tecnologia:
+# 🔗 Tecnologia:
 
     Utiliza web3.js com um servidor local (Express) para orquestrar as transações.
 
     Executa com um validador local Solana para fins de teste, sem necessidade de conexão com a mainnet ou testnet.
 
-🧪 Ambiente de Teste:
+# 🧪 Ambiente de Teste:
 
     A blockchain roda 100% localmente.
 
     As transações podem ser inspecionadas via comandos como solana confirm -v <assinatura>.
 
-🧰 Simplicidade proposital:
+# 🧰 Simplicidade proposital:
 
     O projeto foi feito com foco em simplicidade didática.
 
@@ -22,7 +22,7 @@
 
     Ideal para fins de estudo, prototipação e aprendizado sobre blockchain na prática.
 
-🔐 Segurança em produção:
+# 🔐 Segurança em produção:
 
     ⚠️ Atenção: Este modelo não deve ser utilizado em produção como está.
     Para uso seguro real com valores financeiros:
