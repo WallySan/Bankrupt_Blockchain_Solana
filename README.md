@@ -43,3 +43,13 @@ node server.js
 ```
 ![image](https://github.com/user-attachments/assets/7f665948-faef-4ea9-8655-cdc7d15978c2)
 
+# Log de evidenciando Jogador 2 comprando propriedade 2 do Banco:
+
+![image](https://github.com/user-attachments/assets/0c57b9c4-15a3-4600-b1a4-45e7319ab51b)
+
+Transação realizada na Blockchain Solana:
+
+![image](https://github.com/user-attachments/assets/1e6bf0fd-356a-4a04-8422-5b0b568809d9)
+
+
+
