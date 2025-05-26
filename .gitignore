@@ -1,0 +1,3 @@
+# Ignorar arquivos .json e .txt dentro da pasta wallets
+wallets/*.json
+wallets/*.txt
