@@ -99,64 +99,62 @@ Transação realizada na Blockchain:
 
 
 
-# SIMULADOR BASE (Sem Blockchain):
+# ============== SIMULADOR BASE (Sem Blockchain): ==============
 
 # Diagrama de Classes
 
-![image](https://github.com/user-attachments/assets/09a378f3-b520-403a-add6-0e3b217763c5)
+![image](https://github.com/user-attachments/assets/c19e3854-118f-4ae9-a5f8-7531c7032149)
 
 
 # SIMULADOR
 
 Rodadas e Jogos personalizaveis:
 
-![image](https://github.com/user-attachments/assets/bae01adc-8e32-4299-a80a-30c132723661)
+![image](https://github.com/user-attachments/assets/72e65e8c-9db4-44cc-9929-6c9273b3dac6)
 
 
 Import do gameConfig.txt
 
-![image](https://github.com/user-attachments/assets/d9d814de-1c43-434a-8ddc-876b61d40094)
+![image](https://github.com/user-attachments/assets/b32736ab-12b8-4448-a302-d23d873c7549)
 
 
 Tabuleiro da Simulação:
 
-![image](https://github.com/user-attachments/assets/100aa1d8-9034-4bf7-86ae-a229fcf8966b)
+![image](https://github.com/user-attachments/assets/1ffa5b34-413d-47ef-99fb-b48af36214ec)
 
 
 Logs das Jogadas:
 
-![image](https://github.com/user-attachments/assets/33594a59-8a6f-4fcc-b24a-5f6db49e72b8)
+![image](https://github.com/user-attachments/assets/95c493c8-72b2-4110-8212-466bc68692dc)
 
 
 Log da finalização do Jogo
 
-![image](https://github.com/user-attachments/assets/be466c00-a05c-4190-bac4-67ca02dbb815)
+![image](https://github.com/user-attachments/assets/f1a2b70b-5512-4d88-a2ed-91be5bf59f01)
 
 Estatísticas (40 casas alternando uma vazia e outra com propriedade)
 
-![image](https://github.com/user-attachments/assets/ef6a8b15-fcd9-4f34-8b1a-82a350aba4e5)
+![image](https://github.com/user-attachments/assets/bd89a000-bac4-4969-bd06-2764e8c8bc95)
 
-![image](https://github.com/user-attachments/assets/7f24e03c-7b34-4c91-b151-2a8afe2c8808)
+![image](https://github.com/user-attachments/assets/e92d1b65-97ce-4da7-a460-2c9721f969ce)
 
 Estatísticas (20 casas todas propriedades)
 
 Para alterar o tabuleiro para apenas 20 casas e todas sendo propriedades, foi incluso o metodo de importação reduzida:
 
-![image](https://github.com/user-attachments/assets/3711cc64-4ee3-4282-bab3-11143c416ca7)
+![image](https://github.com/user-attachments/assets/5e80df26-cbe5-42de-94f2-1d3064198c6d)
 
 O jogo ficou mais curto:
 
-![image](https://github.com/user-attachments/assets/28ba0a0e-f889-4357-9e75-cb4e2c13dde0)
+![image](https://github.com/user-attachments/assets/0a4216c8-d06f-4eb4-a8ed-2c9792343124)
 
-![image](https://github.com/user-attachments/assets/c62210a9-2572-42cd-9ee9-111800ce8541)
+![image](https://github.com/user-attachments/assets/69f60a0d-b5c1-4029-8f28-08add052d4d9)
 
 Alterando para 60 casas, alternando entre 2 vazias e 1 propriedade
 
-![image](https://github.com/user-attachments/assets/a5b6777e-c4b0-4a6d-bee5-d6c0ce1471d5)
+![image](https://github.com/user-attachments/assets/159f1b08-1d7d-40e2-a7e9-b5bdee3f9cc3)
 
-![image](https://github.com/user-attachments/assets/7ebc19bc-2e97-4d45-995d-887208285557)
-
-![image](https://github.com/user-attachments/assets/78833900-5d61-496e-95cf-f23073da4326)
+![image](https://github.com/user-attachments/assets/92a37216-4ba6-42e2-a1ab-e362ed23b08c)
 
 
 
