@@ -2,6 +2,10 @@
 
 🎯 Este projeto é uma simulação de um jogo de Banco Imobiliário onde as transações financeiras entre jogadores são realizadas utilizando a blockchain da Solana.
 
+
+![image](https://github.com/user-attachments/assets/e7ff5cb1-7de3-4b82-a88b-12549392fe0d)
+
+
 # 🔗 Tecnologia:
 
     Utiliza web3.js com um servidor local (Express) para orquestrar as transações.
