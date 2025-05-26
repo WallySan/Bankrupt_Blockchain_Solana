@@ -95,7 +95,7 @@ Transação realizada na Blockchain:
 
 
 
-# SIMULADOR BASE (Classe Banco fora da Blockchain):
+# SIMULADOR BASE (Sem Blockchain):
 
 # Diagrama de Classes
 
