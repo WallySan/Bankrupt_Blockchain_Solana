@@ -1,0 +1,17 @@
+{
+  "name": "backendweb3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.2",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
